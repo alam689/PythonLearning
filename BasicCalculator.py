@@ -29,5 +29,5 @@ elif option==4:
         n3 = n1 / n2
         print("Division is :" + str(n3))
 else:
-    print("Invalid optionffffffffffffffffff")
+    print("Invalid option")
 
