@@ -10,7 +10,7 @@ while True:
     print("0. Exit")
     print("1. Add Books")
     print("2. Book Update")
-    print("3. Remove Update")
+    print("3. Book Remove")
     print("4. View All Books")
 
     menu = input("Select any number: ")
