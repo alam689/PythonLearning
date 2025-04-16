@@ -1,0 +1,17 @@
+🔹 1. Input as Strings
+str_list=input().split()                        #make input as List of Strings
+str_list1=list(input().split())                 #make input as List of Strings
+str_tuple=tuple(input().split())                #make input as tuple of Strings
+data = input().split()
+str_dict = {data[i]: data[i+1] for i in range(0, len(data), 2)}
+                                               #make input as Dictionery
+
+🔹 2. Input as Numbers
+nums_list = list(map(int, input().split()))    #make input as List of Integer
+nums_tuple = tuple(map(int, input().split()))  #make input as Tuple of Integer
+nums_tuple = tuple(map(float, input().split()))  #make input as Tuple of float
+
+data = list(map(int, input().split()))
+nums_dict = {data[i]: data[i+1] for i in range(0, len(data), 2)}
+                                              #make input as integer Dictionery
+
